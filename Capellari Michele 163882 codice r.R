@@ -12,11 +12,9 @@ library(modelr)
 library(ggrepel)
 personale <- read_excel("Personale.xlsx")
 partita <- read_excel("partita.xlsx")
-avversario <- read_excel("Avversario.xlsx")
 partitaAvv <- read_excel("partitaAvv.xlsx")
 #View(personale)
 #View(partita)
-#View(avversario)
 #View(partitaAvv)
 
 #calcolo il wirate totale 
